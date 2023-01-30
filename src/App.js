@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -6,7 +5,6 @@ import { Route, Routes } from 'react-router-dom'
 import DetailScreen from './components/detailComponents/DetailScreen'
 import HomeScreen from './components/homeComponents/HomeScreen'
 import NewRecipeScreen from './components/newRecipeComponents/NewRecipeScreen'
-import axios from 'axios';
 
 function App() {
   return (
