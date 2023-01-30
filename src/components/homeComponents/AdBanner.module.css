@@ -1,0 +1,19 @@
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.banner {
+    color: var(--text-light);
+    padding: 3.5rem;
+}
+
+.bannerContent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin:  auto;
+    text-align: center;
+    width: 45%;
+}

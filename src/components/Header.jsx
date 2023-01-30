@@ -1,19 +1,15 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { BiSearchAlt2 } from "react-icons/bi";
+import React from "react";
 import styles from "./Header.module.css";
+
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.topHeader}>
       <h2>Robert's Eatery</h2>
-      <nav>
-        <Link to="">
-          <button className={styles.nav_btn}>Home</button>
-        </Link>
-        <Link to="/newRecipe">
-          <button className={styles.nav_btn}>Add Recipe</button>
-        </Link>
+      <nav className={styles.navBar}>
+          <Link to="/"><button>Home</button></Link>
+          <Link to="/new-recipe"><button>Add Recipe</button></Link>
       </nav>
     </header>
   );
